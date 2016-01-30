@@ -1,0 +1,1 @@
+The code can run on the computer lab2 - 24 in CADE. Download the file folder named “code”, using cd command to enter the file folder. Using command ./run.sh to run the codes. All the results will be shown.  

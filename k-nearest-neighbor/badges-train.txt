@@ -1,0 +1,200 @@
++ matthias heger
+- jude shavlik
+- leslie pack kaelbling
+- r. andrew mccallum
++ thomas ellman
++ patrick m. murphy
+- craig knoblock
+- mary soon lee
+- lorenza saitta
++ efim kinber
+- john m. zelle
+- charles x. ling
++ pat langley
+- david helmbold
+- hiroshi tanaka
++ david w. opitz
++ earl s. harris
+- phil long
+- ron kohavi
++ daniel hennessy
++ nicolo cesa-bianchi
++ bir bhanu
+- darko zupanic
++ sanjay jain
+- andrew y. ng
+- tatsuo unemi
++ chris darken
++ shai ben-david
+- sebastian seung
+- paul w. goldberg
++ mark w. craven
++ yishay mansour
++ tom fawcett
++ scott e. decatur
++ andrey burago
++ carla e. brodley
++ moshe leshno
++ dan oblinger
+- mark schwabacher
++ geoffrey gordon
++ michael i. jordan
+- david w. aha
++ haralabos athanassiou
++ david gillman
++ pascal koiran
++ robert p. daley
++ judy a. franklin
+- bruce a. macdonald
+- jean gabriel ganascia
+- leslie grate
++ leonard pitt
++ david finton
+- stephen kwek
+- mandayam t. suraj
++ jonathan hodgson
+- john r. rose
+- mona singh
+- robert schapire
++ sreerama k. murthy
+- takefumi yamazaki
++ eyal kushilevitz
+- thomas g. spalthoff
+- roberto piola
+- steven salzberg
+- andrew w. moore
++ stephen muggleton
+- ricard gavalda
++ wolfgang maass
++ eddy mayoraz
++ ronald l. rivest
++ kan deng
++ tal grossman
+- william a. greene
++ sally goldman
++ pang-chieh chen
+- bradley l. whitehall
+- steven w. norton
++ moshe koppel
+- lyle h. ungar
++ steven minton
++ jonathan gratch
++ lance fortnow
++ armand prieditis
++ michael littman
++ michael j. donahue
+- joe suzuki
+- gary m. selzer
+- ken lang
++ l. thorne mccarty
+- sonya snedecor
+- filippo neri
+- wee sun lee
+- ameur foued
++ russell greiner
+- jean-daniel zucker
+- carl h. smith
++ johanne morin
++ joel ratsaby
+- paul vitanyi
+- cullen schaffer
+- hiroshi motoda
++ robert s. roos
++ jason catlett
++ anselm blumer
+- fernando pereira
+- michael de la maza
+- james s. royer
++ stan matwin
++ bob evans
+- robert c. holte
+- michele sebag
+- thomas wengerek
++ welton becket
+- haym hirsh
++ justin boyan
++ nicolas fiechter
+- attilio giordana
++ tom hancock
++ marko grobelnik
++ margo guertin
++ martinch krikis
++ wai lam
++ tom bylander
++ philip chan
++ reinhard blasig
++ dennis f. kibler
+- steffen lange
++ claire cardie
+- mario marchand
++ huw roberts
+- jiarong hong
+- dan roth
+- richard s. sutton
++ j. jeffrey mahoney
++ david loewenstern
++ randolph jones
+- stuart russell
+- tapio elomaa
++ steve a. chien
+- xuemei wang
++ george h. john
++ david mathias
++ aaron feigelson
++ lars asker
++ paul fischer
++ lindley darden
++ nathalie japkowicz
+- vijay raghavan
+- karsten verbeurgt
+- ronitt rubinfeld
++ malini bhandaru
+- michael redmond
++ mark staley
+- jong-hoon oh
+- usama fayyad
+- kimmen sjolander
+- robert williamson
+- olivier de vel
++ cristina baroglio
+- holly yanco
+- frank stephan
++ nikolay nikolaev
++ ed pednault
+- richard a. caruana
++ stefan kramer
+- justinian rosca
++ david cohn
+- dunja mladenic
++ wan p. chiang
++ chidanand apte
++ jeffery clouse
++ brian d. davidson
+- masayuki inaba
+- john rachlin
++ neil berkman
+- patricia j. riddle
+- jing peng
+- gary weiss
++ george berg
+- daniel l. silver
+- arlindo oliveira
++ long-ji lin
+- nina mishra
++ naoki abe
+- maja mataric
++ rich maclin
+- sholom weiss
++ antoine cornuejols
+- yoshifumi sakai
+- chen k. tham
++ krishnan pillaipakkamnatt
+- von-wun soo
+- toshiyasu matsushima
+- david pierce
++ foster j. provost
+- shaul markovitch
+- r. bharat rao
++ dana angluin
+- satinder pal singh
+- yoav freund

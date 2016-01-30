@@ -1,0 +1,94 @@
+- thomas zeugmann
++ eric allender
+- david b. skalak
+- janusz wnek
++ eric baum
+- drago indjic
++ michael w. barley
++ yolanda gil
++ daniel kortenkamp
++ grigoris karakoulas
++ mark changizi
++ emanuel knill
++ oded maron
+- sandra panizza
+- joseph o'sullivan
++ claudio facchinetti
++ william gasarch
++ jorg-uwe kietz
++ wray buntine
++ javed aslam
+- dana ron
+- kenji yamanishi
++ diana gordon
++ chun-nan hsu
++ thomas e. kammeyer
+- priscilla rasmussen
++ george a. drastal
+- yoram singer
++ gerald f. dejong
++ lance riley
+- tom m. mitchell
++ barak a. pearlmutter
+- donna slonim
++ timothy p. barber
++ jose l. balcazar
+- paul utgoff
++ william cohen
++ thomas g. dietterich
++ michael kearns
+- alexander m. meystel
++ melinda t. gervasio
+- j. r. quinlan
++ hal duncan
++ aurora perez
+- alma whitten
+- matevz kovacic
++ harris drucker
++ nader bshouty
++ bill byrne
++ roni khardon
++ martin kummer
+- minoru asada
++ john fischer
++ sean slattery
++ sridhar mahadevan
+- glenn silverstein
+- manfred warmuth
+- klaus p. jantke
++ claude sammut
+- robert sloan
++ zhixiang chen
+- marcos salganicoff
+- nitin indurkhya
+- prasad tadepalli
++ kamal m. ali
++ myriam abramson
++ seth flanders
++ avrim blum
++ david haussler
+- michael a. meystel
+- william sakas
++ bernhard pfahringer
++ wolfgang janko
++ clare bates congdon
++ kate goelz
++ jyrki kivinen
++ lorien y. pratt
+- craig nevill-manning
++ merrick l. furst
+- brian tester
+- bhaskar dasgupta
++ johannes furnkranz
++ david montgomery
++ lisa hellerstein
++ bala kalyanasundaram
+- irina tchoumatchenko
+- arun sharma
++ peter bartlett
+- kazushi ikeda
++ neela khan
+- chris drummond
++ jeff jackson
++ susan l. epstein
++ john case

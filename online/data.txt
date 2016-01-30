@@ -1,0 +1,99 @@
+
+
+update time:403
+u:1.0r:1.0train accuracy:0.8261682242990654
+u:1.0r:1.0 test accuracy:0.8233421630701642
+
+
+update time:527
+u:1.0r:0.1train accuracy:0.8293831775700935
+u:1.0r:0.1 test accuracy:0.8298236206228194
+
+
+update time:697
+u:1.0r:0.01train accuracy:0.8052087227414331
+u:1.0r:0.01 test accuracy:0.8085166042124305
+
+
+update time:907
+u:1.0r:0.001train accuracy:0.7052834890965732
+u:1.0r:0.001 test accuracy:0.7094850755911617
+
+
+update time:426
+u:2.0r:1.0train accuracy:0.829221183800623
+u:2.0r:1.0 test accuracy:0.8252248352500323
+
+
+update time:601
+u:2.0r:0.1train accuracy:0.8261557632398754
+u:2.0r:0.1 test accuracy:0.8293597364000518
+
+
+update time:800
+u:2.0r:0.01train accuracy:0.8090591900311527
+u:2.0r:0.01 test accuracy:0.8125390877374338
+
+
+update time:1065
+u:2.0r:0.001train accuracy:0.7324485981308411
+u:2.0r:0.001 test accuracy:0.7373775681612611
+
+
+update time:449
+u:3.0r:1.0train accuracy:0.828423676012461
+u:3.0r:1.0 test accuracy:0.8254580695180256
+
+
+update time:648
+u:3.0r:0.1train accuracy:0.8335825545171339
+u:3.0r:0.1 test accuracy:0.835264892104923
+
+
+update time:832
+u:3.0r:0.01train accuracy:0.8029034267912772
+u:3.0r:0.01 test accuracy:0.8066558986949217
+
+
+update time:1186
+u:3.0r:0.001train accuracy:0.7460062305295951
+u:3.0r:0.001 test accuracy:0.7512314252487402
+
+
+update time:465
+u:4.0r:1.0train accuracy:0.8330591900311527
+u:4.0r:1.0 test accuracy:0.8281606150665461
+
+
+update time:675
+u:4.0r:0.1train accuracy:0.8351401869158879
+u:4.0r:0.1 test accuracy:0.8358521772838867
+
+
+update time:855
+u:4.0r:0.01train accuracy:0.7855700934579439
+u:4.0r:0.01 test accuracy:0.7886703708489469
+
+
+update time:1335
+u:4.0r:0.001train accuracy:0.7523239875389408
+u:4.0r:0.001 test accuracy:0.7574525132446052
+
+
+update time:481
+u:5.0r:1.0train accuracy:0.832797507788162
+u:5.0r:1.0 test accuracy:0.8292240599560667
+
+pdate time:700
+u:5.0r:0.1train accuracy:0.8351028037383178
+u:5.0r:0.1 test accuracy:0.83628375759142
+
+
+update time:874
+u:5.0r:0.01train accuracy:0.7714766355140187
+u:5.0r:0.01 test accuracy:0.7751389068355085
+
+
+update time:1384
+u:5.0r:0.001train accuracy:0.7520124610591901
+u:5.0r:0.001 test accuracy:0.7576024034112934
