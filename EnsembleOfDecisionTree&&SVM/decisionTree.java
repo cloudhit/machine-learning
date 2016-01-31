@@ -15,8 +15,8 @@ import java.util.Collections;
 import java.io.*;
 
 public class decisionTree{
-	public decisionTreeNode root = null;
-	public List<List<Double>> table = null;
+	  public decisionTreeNode root = null;
+	  public List<List<Double>> table = null;
     public int max_depth;
     public decisionTree(int depth){
         this.max_depth = depth;
@@ -58,39 +58,39 @@ public class decisionTree{
         return node[cur];
     }
     public List<List<Double>> readFile(String fileName){
-     FileInputStream file = null;
-     InputStreamReader isr = null;
-     BufferedReader br = null;
-     List<List<Double>> examples = new ArrayList();
-     try{
-        file = new FileInputStream(fileName);
-        isr = new InputStreamReader(file);
-        br = new BufferedReader(isr);
-        String str = null;
-        while((str = br.readLine()) != null){
-          String[] att = str.split(" ");
-          List<Double> example = new ArrayList();
-          example.add(Double.parseDouble(att[0]));
-          for(int i = 1; i < att.length; i ++){
-            double x = Double.parseDouble(att[i].split(":")[1]);
-            example.add(x);
-           }
-          examples.add(example);
-        }
-     }catch (FileNotFoundException e) {
-         System.out.println("can't find file");
-        }catch (IOException e) {
-        System.out.println("read/write fails");
-        } finally {
-          try {
-           br.close();
-           isr.close();
-           file.close();
-       } catch (IOException e) {
-         e.printStackTrace();
+       FileInputStream file = null;
+       InputStreamReader isr = null;
+       BufferedReader br = null;
+       List<List<Double>> examples = new ArrayList();
+       try{
+          file = new FileInputStream(fileName);
+          isr = new InputStreamReader(file);
+          br = new BufferedReader(isr);
+          String str = null;
+          while((str = br.readLine()) != null){
+            String[] att = str.split(" ");
+            List<Double> example = new ArrayList();
+            example.add(Double.parseDouble(att[0]));
+            for(int i = 1; i < att.length; i ++){
+              double x = Double.parseDouble(att[i].split(":")[1]);
+              example.add(x);
+             }
+            examples.add(example);
+          }
+       }catch (FileNotFoundException e) {
+           System.out.println("can't find file");
+          }catch (IOException e) {
+          System.out.println("read/write fails");
+          } finally {
+            try {
+             br.close();
+             isr.close();
+             file.close();
+         } catch (IOException e) {
+           e.printStackTrace();
+         }
+         return examples;
        }
-       return examples;
-     }
     }
     public void BuildTree(){
         List<List<Double>> tmp = readFile("badges-train-features.txt");
@@ -129,8 +129,6 @@ public class decisionTree{
                 correct ++;
            
         }
-        //System.out.println("test number:" + tab.size());
-        //System.out.println("accuracy:" + (correct * 1.0 /tab.size()));
         return correct * 1.0/tab.size();
     }
     public static void main(String[] args) {

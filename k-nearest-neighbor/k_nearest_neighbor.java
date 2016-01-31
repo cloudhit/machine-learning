@@ -29,40 +29,35 @@ public class k_nearest_neighbor{
         nt.covToFeat("badges-test.txt", "test.txt");
         String[] test = nt.sendToMemory("test.txt", 94);
         int error = 0;
-       for(int m = 0; m < k.length; m ++){
-       	 ArrayList<tmp> kgroup = new ArrayList();
-        for(int i = 0; i < test.length; i ++){
-        	//System.out.println(i);
-        	for(int j = 0; j < train.length; j ++){
+        for(int m = 0; m < k.length; m ++){
+       	  ArrayList<tmp> kgroup = new ArrayList();
+          for(int i = 0; i < test.length; i ++){
+        	 for(int j = 0; j < train.length; j ++){
         		int distance = 0;
         		String[] t1 = test[i].split(" "), t2 = train[j].split(" ");
         		for(int n = 1; n <= 4; n++)
         		 if(!t1[n].equals(t2[n]))
                    distance ++;
-               boolean flag = false;
-               int size = kgroup.size();
-               for(int k_index = 0; k_index < size; k_index ++){
-                 if(kgroup.get(k_index).distance >= distance){
-                 	tmp t = new tmp(distance, j);
-                 	kgroup.add(k_index, t);
-                 	flag = true;
-                 	break;
-                 }
-                }
-                //System.out.print(kgroup.size() + " ");
-                if(!flag && kgroup.size() < k[m])
-                 kgroup.add(new tmp(distance, j));
-                if(kgroup.size() > k[m])
-                 kgroup.remove(kgroup.size() - 1); 
-                 //System.out.print(kgroup.size() + " ");       
-        }            
+            boolean flag = false;
+            int size = kgroup.size();
+            for(int k_index = 0; k_index < size; k_index ++){
+              if(kgroup.get(k_index).distance >= distance){
+             	 tmp t = new tmp(distance, j);
+             	 kgroup.add(k_index, t);
+             	 flag = true;
+             	 break;
+              }
+            }
+            if(!flag && kgroup.size() < k[m])
+             kgroup.add(new tmp(distance, j));
+            if(kgroup.size() > k[m])
+             kgroup.remove(kgroup.size() - 1);      
+          }            
          int cnt = 0;
          for(int j = 0; j < kgroup.size(); j ++){
-          //System.out.print(kgroup.get(j).index + " ");
          	if(train[kgroup.get(j).index].charAt(0) == '+')
               cnt++;
          }
-         //System.out.println();
          char pred = (cnt > kgroup.size()/2)? '+':'-'; 
          if(pred != test[i].charAt(0))
          	error ++;

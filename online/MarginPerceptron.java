@@ -81,7 +81,6 @@ public class MarginPerceptron{
           }
         }
       }
-     //System.out.println("Update Times:" + cnt_0);
       update_time += cnt_0;
      return w;
   }

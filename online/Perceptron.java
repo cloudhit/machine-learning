@@ -63,9 +63,6 @@ public class Perceptron{
 
 	}
 	public List<Double> produceW(List<String> table, double r, int dimension, List<Double> w){
-    //for(Double w1: w)
-      //System.out.print(w1 + " ");
-    //System.out.println();
 	  int cnt_0 = 0;
 	  for(String i : table){
 	    int y = i.charAt(0) == '1'? 1 : -1;
@@ -85,7 +82,6 @@ public class Perceptron{
        }
       }
      update_time += cnt_0;
-     //System.out.println("Update Times:" + cnt_0); 
      return w;
 	}
 	public double getAccuracy(List<Double> w, List<String> table){
@@ -109,7 +105,6 @@ public class Perceptron{
 	 return error_num * 1.0 / table.size();
 	}
   public void run(int epo, boolean flag, String train_filename, String test_filename, int exnum){
-    //dim = 123;
     int a = 0;
     Double[] rr = {1.0, 0.1, 0.01, 0.001};
     if(!test_filename.equals("table2.txt"))
@@ -142,7 +137,6 @@ public class Perceptron{
       List<String> table_test = readFile(test_filename);
       ans1 += getAccuracy(w, table_test);    
      }
-     //System.out.println(ww.length);
      if(dim == 4)
      for(double x : ww)
       System.out.print(x / exnum + " ");

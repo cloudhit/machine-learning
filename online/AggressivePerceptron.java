@@ -86,7 +86,6 @@ public class AggressivePerceptron{
         }
       }
       update_time += cnt_0;
-     //System.out.println("Update Times:" + cnt_0);
      return w;
   }
   public static double getAccuracy(List<Double> w, List<String> table){
